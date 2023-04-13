@@ -47,4 +47,15 @@ PRIMARY KEY (id),
 UNIQUE KEY email (email)
 );
 */
+
+/*
+CREATE TABLE fatec_professores (
+id INT(11) NOT NULL AUTO_INCREMENT,
+nome VARCHAR(100) NOT NULL,
+endereco VARCHAR(100) NOT NULL,
+curso VARCHAR(100) NOT NULL,
+salario INT(20) NOT NULL,
+PRIMARY KEY (id)
+);
+*/
 ?>
